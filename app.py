@@ -174,4 +174,4 @@ def logout():
 
 if _name_ == '_main_':
     print("🚀 Mock MovieMagic running at http://127.0.0.1:5000")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    app.run(port=5000)
